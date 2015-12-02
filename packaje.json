@@ -1,0 +1,12 @@
+{
+  "name"         : "Filmaffinity-animation-API",
+  "version"      : "0.0.1",
+  "description"  : "Filmaffinity db API.",
+  "main"         : "app.js",
+  "author"       : "Karjes",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  }
+}
