@@ -1,12 +1,28 @@
 {
-  "name"         : "Filmaffinity-animation-API",
-  "version"      : "0.0.1",
-  "description"  : "Filmaffinity db API.",
-  "main"         : "app.js",
-  "author"       : "Karjes",
-  "dependencies" : {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest"
-  }
+  "name": "Filmaffinity-animation-API",
+  "version": "0.0.1",
+  "description": "Filmaffinity db API.",
+  "main": "app.js",
+  "author": "Karjes",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "request": "1.4.28",
+    "express": "4.13.1",
+    "cheerio": "1.4.3"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:filmanimationapi.git"
+  },
+  "keywords": [
+    "node",
+    "film",
+    "animation"
+  ],
+  "license": "MIT"
 }
